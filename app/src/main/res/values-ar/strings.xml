@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+    <!ENTITY appName "الباز">
+    ]>
+<resources>
+
+    <string name="app_name">&appName;</string>
+
+    <!--Navigation Drawer -->
+    <string name="navigation_drawer_open">إظهار القائمة</string>
+    <string name="navigation_drawer_close">إغلاق القائمة</string>
+    <string name="action_settings">إعدادات</string>
+
+    <!--Nav items-->
+    <string name="action_payment">طرق الدفع</string>
+    <string name="action_trips">رحلاتى</string>
+    <string name="action_coupon">كوبوناتى</string>
+    <string name="action_wallet">محفظتى</string>
+    <string name="action_help">مساعدة</string>
+    <string name="action_share">مشاركة</string>
+    <string name="action_logout">تسجيل الخروج</string>
+
+    <!--Activity Begin-->
+    <string name="get_moving_with_app">مشوارك اسهل مع الباز</string>
+    <string name="enter_your_mail_id">أدخل بريدك الإلكترونى</string>
+    <string name="or_connect_with_social_media">أو تواصل بطريقة أخرى</string>
+
+    <!--Activity Email -->
+    <string name="enter_phone_number">أدخل رقم الهاتف</string>
+    <string name="sample_mail_id">name@example.com</string>
+
+    <!--Activity Password -->
+    <string name="welcome_back">مرحبًا بك مرة أخرى ، سجّل الدخول للمتابعة</string>
+    <string name="enter_your_password">أدخل كلمة المرور الخاصة بك</string>
+    <string name="i_forgot_my_password">لقد نسيت كلمة المرور</string>
+    <string name="i_need_to_create_an_account">أحتاج إلى إنشاء حساب جديد</string>
+
+
+    <!--Activity Register-->
+    <string name="enter_your_details_to_register">أدخل بيناتك للتسجيل</string>
+    <string name="optional">أختياري</string>
+    <string name="email">البريد الإلكترونى</string>
+    <string name="name">الإسم</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="password">كلمة المرور</string>
+    <string name="confirm_password_register">أعادة كلمة المرور</string>
+    <string name="first_name">الإسم الأول</string>
+    <string name="last_name">إسم العائلة</string>
+    <string name="mobile_no">9876543210</string>
+    <string name="password_txt">******</string>
+
+    <!-- Activity ForgetPassword -->
+    <string name="recover_password">أدخل البريد الإلكترونى الخاص بك لاسترداد الحساب</string>
+
+    <!-- Coupon Fragment-->
+    <string name="enter_the_coupon">أدخل رمز القسيمة</string>
+    <string name="add_coupon">إضافة كوبون</string>
+
+    <!-- Edit Activity-->
+    <string name="edit_profile">تعديل الحساب</string>
+    <string name="change_password">تريد تغيير كلمة المرور؟</string>
+    <string name="save">حفظ</string>
+    <string name="update_success">تم تعديل الحساب</string>
+
+
+    <!-- Home Fragment-->
+    <string name="where_to_go">إلى أين تريد الذهاب؟</string>
+    <string name="selected_option">إقتصادى</string>
+    <string name="selected_payment_mode">كاش</string>
+    <string name="change">تغيير</string>
+    <string name="request_xuber">اطلب الآن</string>
+
+
+    <!--Schedule Layout -->
+    <string name="schedule">إحجز رحلة</string>
+    <string name="change_date">تغيير</string>
+    <string name="sample_date">إختر تاريخ</string>
+    <string name="sample_time">إختر وقت</string>
+    <string name="next">إحجز لاحقاً</string>
+    <string name="different_time">لا يمكنك الحجز في الماضي ، يرجى اختيار وقت مختلف</string>
+    <string name="choose_date_time">يرجى اختيار التاريخ والوقت للحجز</string>
+
+    <!--Service List Item -->
+    <string name="service_list_item">جاجوار</string>
+    <string name="no_service">لا توجد خدمات</string>
+    <string name="no_route">لا يوجد طريق حاليا، اختر وجهة مختلفة</string>
+    <string name="choose_payment">اختر وسيلة الدفع</string>
+
+    <!--Approximate -->
+    <string name="approximate">الأجرة المقدرة</string>
+    <string name="eta_time">الوقت المقدر</string>
+    <string name="sample_rate">$1234</string>
+    <string name="include_all">بما في ذلك جميع الرسوم الأخرى</string>
+
+    <!--Driver popup Layout -->
+    <string name="rate_card">مقدر الرحلة</string>
+    <string name="base_fare">الاجرة الاساسية</string>
+    <string name="fare_km">أجرة/كم</string>
+    <string name="fare_min">أجرة/الدقيقة</string>
+    <string name="fare_type">أجرة النوع</string>
+    <string name="capacity">العدد</string>
+
+    <!-- Confirm your pickup -->
+    <string name="confirm_your_pickup">تأكيد الطلب الخاص بك</string>
+    <string name="confirm">تأكيد الطلب</string>
+    <string name="sample_address">15, ميدان التحرير, القاهرة, مصر</string>
+    <string name="done">تم</string>
+
+    <!-- Waiting for provider -->
+    <string name="looking_for_ride">جارى البحث عن رفيق</string>
+    <string name="cancel_ride">إلغاء الرحلة</string>
+    <string name="share">مشاركة</string>
+    <string name="cancel_ride_alert">هل أنت متأكد من الرغبة في إلغاء الرحلة؟</string>
+    <string name="no_providers_found">لايوجد رفيق متاح حاليا من اجل رحلتك. من فضلك حاول لاحقا.</string>
+    <string name="no_drivers_found">لايوجد رفيق متاح من اجل رحلتك.</string>
+    <string name="driver_busy">قام الرفيق بإلغاء رحلتك. يرجى التواصل معنا للحصول على الدعم.</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="try_later">المحاولة لاحقاً</string>
+
+    <!--Driver Accepted-->
+    <string name="sample_name">رفيق</string>
+    <string name="sample_service">BMW</string>
+    <string name="call_btn">إتصال</string>
+    <string name="cancel_trip">إلغاء الرحلة</string>
+    <string name="surge_pricing">بسبب ساعات الذروة ، سوف تختلف الرسوم حسب توافر مقدمى الخدمة</string>
+
+
+    <!--Payment Fragment-->
+    <string name="payment">طرق الدفع</string>
+    <string name="payment_methods">وسائل الدفع</string>
+    <string name="add_payments">إضافة بطاقة دفع</string>
+    <string name="card_details">بيانات البطاقة</string>
+    <string name="card_number">رقم البطاقة</string>
+    <string name="sample_card_no">XXXX - XXXX - XXXX - XXXX</string>
+    <string name="month_and_year">MM/YY</string>
+    <string name="cvv">CVV</string>
+    <string name="add">إضافة بطاقة</string>
+    <string name="enter_card_details">بيانات البطاقة غير صالحة</string>
+    <string name="are_you_sure">هل انت متأكد انك تريد حذف البطاقة</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+
+
+    <!--Status -->
+    <string name="arrived">وصل رفيق إلى موقعك</string>
+    <string name="picked_up">انت الآن فى رحلة</string>
+    <string name="dropped">إنتهت رحلتك</string>
+
+    <!--Your Trips-->
+    <string name="history">السجل</string>
+    <string name="comments">التعليقات</string>
+    <string name="no_trips">لا يوجد لديك رحلات سابقة</string>
+    <string name="your_trips">رحلاتى</string>
+    <string name="upcoming">رحلات قادمة</string>
+    <string name="past">رحلات ماضية</string>
+
+
+    <!--Invoice -->
+    <string name="invoice">فاتورة</string>
+    <string name="base_price">الاجرة</string>
+    <string name="booking_id">رقم الحجز</string>
+    <string name="sample_base_price">$10000</string>
+    <string name="flight_time">وقت الرحلة</string>
+    <string name="sample_flight_time">00.00</string>
+    <string name="waiting_time">وقت الانتظار</string>
+    <string name="sample_waiting_time">00.00</string>
+    <string name="extra_price">إضافى</string>
+    <string name="tax">ضريبة</string>
+    <string name="total">الإجمالى</string>
+    <string name="pay_now">إدفع الآن</string>
+    <string name="distance_price">أجرة المسافة</string>
+
+
+    <!--Rate provider-->
+    <string name="rate_provider">قيم رحلتك مع</string>
+    <string name="write_your_comment">اكتب تعليق</string>
+    <string name="submit">إرسال</string>
+
+
+    <!-- Source and destination-->
+    <string name="source_location">مكانى الحالى</string>
+    <string name="destination_location">إلى أين؟</string>
+
+    <!--Show Dailog-->
+    <string name="connect_to_network">لايوجد انترنت</string>
+    <string name="cencel_request">هل انت متأكد انك تريد إلفاء الرحلة؟</string>
+    <string name="connect_to_internet">الأتصال بالأنترنت</string>
+    <string name="connect_to_wifi">إتصل بـWiFi</string>
+    <string name="quit">خروج</string>
+
+
+    <!-- Error Messages-->
+    <string name="something_went_wrong">حدث خطأ</string>
+    <string name="something_went_wrong_net">حدث خطأ ما ، الرجاء التحقق من اتصال الإنترنت</string>
+    <string name="oops_connect_your_internet">لا يوجد إتصال إنترنت</string>
+    <string name="server_down">لايمكن الوصول للخادم</string>
+    <string name="please_try_again">يرجى المحاولة مرة أخرى</string>
+    <string name="email_validation">ادخل بريدك الإلكترونى</string>
+    <string name="not_valid_email">بريد إلكترونى غير صالح</string>
+    <string name="password_validation">لا يمكن ترك كلمة المرور فارغة</string>
+    <string name="first_name_empty">الاسم الأول مطلوب</string>
+    <string name="last_name_empty">إسم العائلة مطلوب</string>
+    <string name="mobile_number_empty">رقم الهاتف مطلوب</string>
+    <string name="mobile_number_validation">رقم الهاتف يجب ان يتكون من 10 إلى 20 رقماً</string>
+    <string name="error">خطأ</string>
+
+    <!--True or False -->
+    <string name="True">true</string>
+    <string name="False">false</string>
+
+
+    <!--Coupon Activity-->
+    <string name="not_vaild_coupon">الكوبون غير صالح أو قد انتهت صلاحيته</string>
+    <string name="coupon_added">تم إضافة القسيمة بنجاح</string>
+    <string name="add_coupon_txt">إضافة كوبون</string>
+    <string name="added_coupon">الكوبونات الحالية</string>
+    <string name="already_in_use_coupon">انت تستخدم هذا الكوبون بالفعل</string>
+    <string name="expired_coupon">عذرًا ، انتهت صلاحية الكوبون</string>
+    <string name="off">إيقاف</string>
+    <string name="the_applied_coupon">رمز الكوبون المستخدم هو</string>
+    <string name="valid_until">صالح حتى</string>
+    <string name="enter_the_code">أدخل رمز الكوبون</string>
+
+
+    <!--Wallet Activity-->
+    <string name="wallet_balance">رصيد محفظتك هو</string>
+
+
+    <!--Change Password-->
+    <string name="change_password_title">تغيير كلمة المرور</string>
+    <string name="current_password">كلمة المرور الحالية</string>
+    <string name="new_password">كلمة المرور الجديدة</string>
+    <string name="confirm_password">تأكيد كلمة المرور الجديدة</string>
+    <string name="please_enter_current_pass">يرجى إدخال كلمة المرور الحالية</string>
+    <string name="please_enter_new_pass">يرجى إدخال كلمة المرور الجديدة</string>
+    <string name="please_enter_confirm_pass">يرجى تأكيد كلمة المرور الجديدة</string>
+    <string name="different_passwords">كلمة المرور غير متطابقة</string>
+    <string name="commision">تكلفة الخدمة</string>
+    <string name="request_cancel">لقد قمت بإلغاء الطلب</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">مرحباً</string>
+    <string name="valid_image">لا توجد صورة</string>
+    <string name="otp_validation">OTP يجب إدخال</string>
+    <string name="inncorrect_otp">غير صحيح OTP</string>
+    <string name="confirm_password_validation">كلمة المرور غير متطابقة</string>
+    <string name="reset_password">إعادة تعيين كلمة المرور</string>
+    <string name="note">ملاحظة: يرجى إدخال رقم otp المرسل إلى عنوان بريدك الإلكتروني المسجل لدينا</string>
+    <string name="secrete_code">أدخل OTP</string>
+    <string name="connect_with_social_media">Or connect with social</string>
+    <string name="logout_alert">هل أنت متأكد من تسجيل الخروج؟</string>
+    <string name="choose_social">إختر حساب</string>
+    <string name="facebook_name">Facebook</string>
+    <string name="google_name">Google</string>
+    <string name="schdule_accept">Your request has responded by the driver</string>
+    <string name="no_comments">لا توجد تعليقات</string>
+    <string name="pin_location">تحديد المكان</string>
+    <string name="type">الخدمة</string>
+    <string name="emaergeny_call">هل تريد بالتأكيد المتابعة مع مكالمة الطوارئ؟</string>
+    <string name="user_no_mobile">رقم هاتف غير صحيح</string>
+    <string name="profile">الحساب</string>
+    <string name="reason_to_cancel">سبب الإلغاء</string>
+    <string name="reason">اكتب رسالة&#8230;&#8230;&#8230;</string>
+
+    <!--Activity Help-->
+    <string name="help_msg">سوف يقوم احد ممثلينا بالتواصل معك فى اقرب وقت ممكن!</string>
+    <string name="help_title">&appName;مساعدة </string>
+    <string name="schedule_request">إحجز لاحقاً</string>
+    <string name="surge_pricing_title">قد يتغير السعر نظراً لزيادة الطلب</string>
+    <string name="request_now">اطلب الآن</string>
+    <string name="help">مساعدة</string>
+    <string name="book_name">رقم الحجز</string>
+    <string name="password_size">يجب أن تكون كلمة المرور 6 أحرف على الأقل</string>
+    <string name="sorry_for_inconvinent">عذرا ، مساعدينا مشغولون حاليا</string>
+    <string name="email_exist">البريد الإلكترونى مستخدم بالفعل</string>
+    <string name="first_name_no_number">الاسم الأول لا يقبل الأرقام</string>
+    <string name="last_name_no_number">إسم العائلة لا يقبل الأرقام</string>
+    <string name="ok">موافق</string>
+    <string name="use_wallet_amount">إستحدام رصيد المحفظة</string>
+    <string name="arriving">رفيق قد قبل طلبك</string>
+    <string name="view_invoice">عرض الفاتورة</string>
+    <string name="payment_set_as_card">تم تغيير وسيلة الدفع إلى البطاقة</string>
+    <string name="payment_set_as_cash">تم تغيير سيلة الدفع إلى كاش</string>
+    <string name="SERVER_ERROR">خطأ 31 من فضالك حاول مره اخرى</string>
+
+</resources>

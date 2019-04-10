@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Google map-->
+    <string name="google_map_api" translatable="false">AIzaSyCmKoFGohp-_hsr4vZkUue4fznwQTHaRE0</string>
+
+</resources>
